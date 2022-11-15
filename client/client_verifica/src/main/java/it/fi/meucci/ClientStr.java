@@ -55,9 +55,6 @@ public class ClientStr {
            
             
                 ObjectMapper objectMapper = new ObjectMapper();
-
-           
-
                 ArrayList <Persona> persona_scelta = new ArrayList<>();
                 System.out.println("Scegli il nome  delle persone da aggiungere " + '\n');
                 user = keyboard.readLine();

@@ -52,7 +52,8 @@ public class ServerThread extends Thread {
                     MultiServer.lista_persone.add(ricevuto.persone.get(i));
                    
                 }
-               
+               Messaggio m = new Messaggio(null, null);
+               output.writeBytes(objectMapper.writeValueAsString(m) + '\n');
             }
             else if(ricevuto.getPersone().size()==0)
             {
