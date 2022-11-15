@@ -77,7 +77,7 @@ public class ClientStr {
                     persona_scelta.add(a);
                 }
     
-                System.out.println("Scrivi la nazione richiesta");
+                System.out.println("Scrivi la nazione richiesta"+ '\n') ;
                 String nazione = keyboard.readLine();
     
                 Messaggio messaggio = new Messaggio(nazione ,persona_scelta);
